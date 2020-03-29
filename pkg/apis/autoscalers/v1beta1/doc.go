@@ -17,7 +17,7 @@ limitations under the License.
 // Package v1beta1 contains API Schema definitions for the autoscalers v1beta1 API group
 // +k8s:openapi-gen=true
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=github.com/postmates/configurable-hpa/pkg/apis/autoscalers
+// +k8s:conversion-gen=github.com/fsa-streamotion/configurable-hpa/pkg/apis/autoscalers
 // +k8s:defaulter-gen=TypeMeta
-// +groupName=autoscalers.postmates.com
+// +groupName=autoscalers.fsa-streamotion.com
 package v1beta1

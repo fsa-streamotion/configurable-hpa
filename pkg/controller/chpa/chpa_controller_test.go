@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/onsi/gomega"
-	autoscalersv1beta1 "github.com/postmates/configurable-hpa/pkg/apis/autoscalers/v1beta1"
+	autoscalersv1beta1 "github.com/fsa-streamotion/configurable-hpa/pkg/apis/autoscalers/v1beta1"
 	"golang.org/x/net/context"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

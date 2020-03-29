@@ -1,4 +1,4 @@
-apiVersion: autoscalers.postmates.com/v1beta1
+apiVersion: autoscalers.fsa-streamotion.com/v1beta1
 kind: CHPA
 metadata:
   labels:

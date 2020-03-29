@@ -1,5 +1,5 @@
 # Image URL to use all building/pushing image targets
-IMG ?= postmates/configurable-hpa
+IMG ?= fsa-streamotion/configurable-hpa
 
 # To perform tests we need a lot of additional packages the image, including kubebuilder
 # So we can't test in in the 'release' docker image
@@ -13,7 +13,7 @@ test: generate fmt vet manifests
 
 # Build manager binary
 manager: generate fmt vet
-	go build -o bin/manager github.com/postmates/configurable-hpa/cmd/manager
+	go build -o bin/manager github.com/fsa-streamotion/configurable-hpa/cmd/manager
 
 # Run against the configured Kubernetes cluster in ~/.kube/config
 run: generate fmt vet

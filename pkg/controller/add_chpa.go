@@ -17,7 +17,7 @@ limitations under the License.
 package controller
 
 import (
-	"github.com/postmates/configurable-hpa/pkg/controller/chpa"
+	"github.com/fsa-streamotion/configurable-hpa/pkg/controller/chpa"
 )
 
 func init() {

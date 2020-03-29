@@ -26,7 +26,7 @@ def tearDownModule():
     sys.stdout.write("stdout: " + out.decode("utf-8"))
     sys.stdout.write("stderr: " + err.decode("utf-8"))
     cmd = ["kubectl", "delete",
-           "service,deploy,chpas.autoscalers.postmates.com",
+           "service,deploy,chpas.autoscalers.fsa-streamotion.com",
            "-l", "app=chpa-test"]
     test_helper.check_output(cmd)
 

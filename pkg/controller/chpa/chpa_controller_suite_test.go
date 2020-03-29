@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/onsi/gomega"
-	"github.com/postmates/configurable-hpa/pkg/apis"
+	"github.com/fsa-streamotion/configurable-hpa/pkg/apis"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
 	"sigs.k8s.io/controller-runtime/pkg/envtest"

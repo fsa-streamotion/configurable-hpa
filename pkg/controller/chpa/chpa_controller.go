@@ -28,7 +28,7 @@ import (
 
 	"github.com/golang/glog"
 
-	chpav1beta1 "github.com/postmates/configurable-hpa/pkg/apis/autoscalers/v1beta1"
+	chpav1beta1 "github.com/fsa-streamotion/configurable-hpa/pkg/apis/autoscalers/v1beta1"
 	appsv1 "k8s.io/api/apps/v1"
 	autoscalingv2 "k8s.io/api/autoscaling/v2beta1"
 	v1 "k8s.io/api/core/v1"
@@ -157,7 +157,7 @@ type ReconcileCHPA struct {
 // TODO: decide, what to use: patch or update in rbac
 // +kubebuilder:rbac:groups=apps,resources=deployments,verbs=get;list;update;patch
 // +kubebuilder:rbac:groups=,resources=pods,verbs=get;list
-// +kubebuilder:rbac:groups=autoscalers.postmates.com,resources=chpas,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=autoscalers.fsa-streamotion.com,resources=chpas,verbs=get;list;watch;create;update;patch;delete
 func (r *ReconcileCHPA) Reconcile(request reconcile.Request) (reconcile.Result, error) {
 	log.Printf("") // to have clear separation between previous and current reconcile run
 	log.Printf("")

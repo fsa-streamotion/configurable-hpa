@@ -17,7 +17,7 @@ limitations under the License.
 package apis
 
 import (
-	"github.com/postmates/configurable-hpa/pkg/apis/autoscalers/v1beta1"
+	"github.com/fsa-streamotion/configurable-hpa/pkg/apis/autoscalers/v1beta1"
 )
 
 func init() {

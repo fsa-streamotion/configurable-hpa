@@ -13,7 +13,7 @@ min and max replicas, and our deployment name.
 
 ```bash
 cat > chpa.yaml << EOF
-apiVersion: autoscalers.postmates.com/v1beta1
+apiVersion: autoscalers.fsa-streamotion.com/v1beta1
 kind: CHPA
 metadata:
   labels:
@@ -89,7 +89,7 @@ That would be impossible with the vanilla HPA, where `ScaleUpForbiddenWindow` is
 If you decided to stop using the CHPA, you should carefully remove the CHPA without removing the
 deployment itself. To do it just add `--cascade=false` parameter to the `kubect delete` command:
 
-    kubectl delete chpas.autoscalers.postmates.com chpa-example --cascade=false
+    kubectl delete chpas.autoscalers.fsa-streamotion.com chpa-example --cascade=false
 
 The thing is that CHPA is registered as an [Owner](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.10/#ownerreference-v1-meta) for the deployment.
 When we delete the owner of the deployment, the deployment is garbage collected.

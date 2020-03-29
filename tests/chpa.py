@@ -13,7 +13,7 @@ class CHPA:
     default_options = {
         "labelKey": "app",
         "labelValue": "chpa-test",
-        "apiVersion": "autoscalers.postmates.com/v1beta1",
+        "apiVersion": "autoscalers.fsa-streamotionmotion.com/v1beta1",
         "kind": "CHPA",
         "refKind": "Deployment",
         "downscaleForbiddenWindowSeconds": defaultWindowSeconds,

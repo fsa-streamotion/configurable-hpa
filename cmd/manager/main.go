@@ -20,8 +20,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/postmates/configurable-hpa/pkg/apis"
-	"github.com/postmates/configurable-hpa/pkg/controller"
+	"github.com/fsa-streamotion/configurable-hpa/pkg/apis"
+	"github.com/fsa-streamotion/configurable-hpa/pkg/controller"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"

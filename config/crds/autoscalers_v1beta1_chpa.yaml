@@ -4,9 +4,9 @@ metadata:
   creationTimestamp: null
   labels:
     controller-tools.k8s.io: "1.0"
-  name: chpas.autoscalers.postmates.com
+  name: chpas.autoscalers.fsa-streamotion.com
 spec:
-  group: autoscalers.postmates.com
+  group: autoscalers.fsa-streamotion.com
   names:
     kind: CHPA
     plural: chpas

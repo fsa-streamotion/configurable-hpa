@@ -1,6 +1,6 @@
 image:
   tag: stable
-  name: postmates/configurable-hpa
+  name: fsa-streamotion/configurable-hpa
 
 resources: {}
   # Uncomment and set proper value some time ago

@@ -21,7 +21,7 @@ rules:
   - get
   - list
 - apiGroups:
-  - autoscalers.postmates.com
+  - autoscalers.fsa-streamotion.com
   resources:
   - chpas
   verbs:
